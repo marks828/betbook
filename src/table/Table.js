@@ -10,7 +10,7 @@ console.log(data[0].betDesctiption)
                     </thead>
                 </tr>
             </thead>
-
+ 
             {data.map((i)=>
                 <TableBody 
                     bettor1 = {data[i].bettor1}
